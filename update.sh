@@ -2,6 +2,7 @@
 
 clear
 
+git add *.txt
 git add *.sh
 git add *.html
 git add js

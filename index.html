@@ -22,13 +22,35 @@ Apollon Data Metrics (AGY)
     		outline: 0;
 	}
 	@font-face {
-  		font-family: pixel;
+  		font-family: regular;
   		src: url(fonts/pixel.ttf);
 	}
 </style>
 
+<script type="text/javascript" src="js/index.js"></script>
+
+<font face="pixel" color="#ffffff" size="3" align="right">SOUND ON</font>
+
+<br />
+
+<img src="img/soundONsoft.png" width="48px" align="left" onmouseover="this.src='img/soundON.png';" onmouseout="this.src='img/soundONsoft.png';" title="Turn Sound Off" onclick="parent.location='index_mute.html';">
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
 <center>
-<img src="img/logo.png" width="30%" onclick="parent.location='load.html';" onmouseover="this.src='img/logoshift.gif';" onmouseout="this.src='img/logo.png';">
+<font face="pixel" color="#ffffff" size="5">..Choose Your Platform..</font>
+</center>
+
+<center>
+<img src="img/chromeICON.png" width="150px" onclick="downloadsChrome();" onmouseover="this.src='img/chromeICONglow.png';dropSound();" onmouseout="this.src='img/chromeICON.png';" aling="abs_middle">
+
+<img src="img/debICON.png" width="150px" onclick="downloadsDebian();" onmouseover="this.src='img/debICONglow.png';dropSound();" onmouseout="this.src='img/debICON.png';" aling="abs_middle">
+
+<img src="img/firefoxICON.png" width="150px" onclick="downloadsFirefox();" onmouseover="this.src='img/firefoxICONglow.png';dropSound();" onmouseout="this.src='img/firefoxICON.png';" aling="abs_middle">
 </center>
 
 </html>
