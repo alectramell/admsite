@@ -17,10 +17,10 @@ function gMail() {
 	return false;
 }
 
-function getWords(){
+function getWords() {
 
 	var client = new XMLHttpRequest();
-	client.open('GET', 'https://raw.githubusercontent.com/alectramell/beacons/master/colors.sh');
+	client.open('GET', 'https://raw.githubusercontent.com/alectramell/admsite/master/words.txt');
 	client.onreadystatechange = function() {
   	document.getElementById('words').innerHTML = client.responseText;
 	}
