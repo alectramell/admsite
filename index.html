@@ -38,13 +38,10 @@ Apollon Data Metrics (AGY)
 
 <br />
 <br />
+<br />
 
 <center>
-<font face="pixel" color="#ffffff" size="4">..UPDATES..</font>
-</center>
-
-<center>
-<font face="pixel" color="#4c4c4c" size="2" id="words" onmouseover="this.color='#ffffff';" onmouseout="this.color='#4c4c4c';">WORDS</font>
+<font face="pixel" color="#4c4c4c" size="4" id="words">WORDS</font>
 </center>
 
 <br />
@@ -56,11 +53,11 @@ Apollon Data Metrics (AGY)
 </center>
 
 <center>
-<img src="img/chromeICON.png" width="150px" onclick="downloadsChrome();" onmouseover="this.src='img/chromeICONglow.png';dropSound();" onmouseout="this.src='img/chromeICON.png';" aling="abs_middle">
+<img src="img/chromeICON.png" width="150px" onclick="downloadsChrome();" onmouseover="dropSound();this.src='img/chromeICONglow.png';document.getElementById('words').innerHTML = 'Google Chrome';words.color='#0090ff';" onmouseout="this.src='img/chromeICON.png';words.color='#4c4c4c';" aling="abs_middle">
 
-<img src="img/debICON.png" width="150px" onclick="downloadsDebian();" onmouseover="this.src='img/debICONglow.png';dropSound();" onmouseout="this.src='img/debICON.png';" aling="abs_middle">
+<img src="img/debICON.png" width="150px" onclick="downloadsDebian();" onmouseover="dropSound();this.src='img/debICONglow.png';document.getElementById('words').innerHTML = 'Debian';words.color='#dc0042';" onmouseout="this.src='img/debICON.png';words.color='#4c4c4c';" aling="abs_middle">
 
-<img src="img/firefoxICON.png" width="150px" onclick="downloadsFirefox();" onmouseover="this.src='img/firefoxICONglow.png';dropSound();" onmouseout="this.src='img/firefoxICON.png';" aling="abs_middle">
+<img src="img/firefoxICON.png" width="150px" onclick="downloadsFirefox();" onmouseover="dropSound();this.src='img/firefoxICONglow.png';document.getElementById('words').innerHTML = 'Firefox';words.color='#f59600';" onmouseout="this.src='img/firefoxICON.png';words.color='#4c4c4c';" aling="abs_middle">
 </center>
 
 </html>
