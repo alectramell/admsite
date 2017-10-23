@@ -1,6 +1,21 @@
+function wait(ms){
+   var start = new Date().getTime();
+   var end = start;
+   while(end < start + ms) {
+     end = new Date().getTime();
+  }
+}
+
 function dropSound() {
 
 	var audio = new Audio('audio/drop.mp3');
+	audio.volume = 1.0;
+	audio.play()
+}
+
+function magicSound() {
+
+	var audio = new Audio('audio/magic.mp3');
 	audio.volume = 1.0;
 	audio.play()
 }
@@ -25,6 +40,21 @@ function getWords() {
   	document.getElementById('words').innerHTML = client.responseText;
 	}
 	client.send();
+}
+
+function firefoxApps() {
+
+	parent.location = 'firefoxAPPS.html';
+}
+
+function debianApps() {
+
+	parent.location = 'debianAPPS.html';
+}
+
+function chromeApps() {
+
+	parent.location = 'chromeAPPS.html';
 }
 
 
