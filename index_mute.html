@@ -2,11 +2,11 @@
 <html>
 <head>
 <title>
-Apollon Data Metrics (AGY)
+Web Apps | Apollon Data Metrics (AGY)
 </title>
 <META http-equiv="REFRESH" content="120; url=index_mute.html">
 </head>
-<body onload="getWords();">
+<body onload="checkBrowser();">
 
 <style type="text/css">
 	body {
@@ -55,11 +55,11 @@ Apollon Data Metrics (AGY)
 </center>
 
 <center>
-<img src="img/chromeICON.png" width="150px" onclick="words.color='#ffffff';chromeApps();" onmouseover="this.src='img/chromeICONglow.png';document.getElementById('words').innerHTML = 'Google Chrome';words.color='#0090ff';" onmouseout="this.src='img/chromeICON.png';words.color='#4c4c4c';" aling="abs_middle">
+<img src="img/chromeICON.png" width="150px" onclick="words.color='#ffffff';chromeAppsMute();" onmouseover="this.src='img/chromeICONglow.png';document.getElementById('words').innerHTML = 'Google Chrome';words.color='#0090ff';" onmouseout="this.src='img/chromeICON.png';words.color='#4c4c4c';" aling="abs_middle">
 
-<img src="img/debICON.png" width="150px" onclick="words.color='#ffffff';debianApps();" onmouseover="this.src='img/debICONglow.png';document.getElementById('words').innerHTML = 'Debian';words.color='#dc0042';" onmouseout="this.src='img/debICON.png';words.color='#4c4c4c';" aling="abs_middle">
+<img src="img/debICON.png" width="150px" onclick="words.color='#ffffff';debianAppsMute();" onmouseover="this.src='img/debICONglow.png';document.getElementById('words').innerHTML = 'Debian';words.color='#dc0042';" onmouseout="this.src='img/debICON.png';words.color='#4c4c4c';" aling="abs_middle">
 
-<img src="img/firefoxICON.png" width="150px" onclick="words.color='#ffffff';firefoxApps();" onmouseover="this.src='img/firefoxICONglow.png';document.getElementById('words').innerHTML = 'Firefox';words.color='#f59600';" onmouseout="this.src='img/firefoxICON.png';words.color='#4c4c4c';" aling="abs_middle">
+<img src="img/firefoxICON.png" width="150px" onclick="words.color='#ffffff';firefoxAppsMute();" onmouseover="this.src='img/firefoxICONglow.png';document.getElementById('words').innerHTML = 'Firefox';words.color='#f59600';" onmouseout="this.src='img/firefoxICON.png';words.color='#4c4c4c';" aling="abs_middle">
 </center>
 
 </html>
