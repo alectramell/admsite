@@ -57,5 +57,10 @@ function chromeApps() {
 	parent.location = 'chromeAPPS.html';
 }
 
+function FBpage() {
+
+	window.open('https://www.facebook.com/apollondma','_blank');
+}
+
 
 

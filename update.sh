@@ -15,4 +15,4 @@ git push origin master
 
 clear
 
-echo "DATA UPLOAD COMPLETE" | pv -qL 10
+echo "DATA UPDATE COMPLETE" | pv -qL 10
