@@ -27,9 +27,19 @@ Apollon Data Metrics (AGY)
 	}
 </style>
 
+<style type="text/css">
+	div.outer { position: absolute; height: 0%; }
+	div.outer img { position: fixed; right: 0%; bottom: 0%; }
+</style>
+
 <script type="text/javascript" src="js/index.js"></script>
 
 <font face="pixel" size="5" color="#ffffff" onmouseover="this.color='#dc0042';" onmouseout="this.color='#ffffff';" onclick="parent.location='index_mute.html';"><<<</font>
+
+<img src="img/memberRed.png" width="48px" title="Red Access" align="right" onclick="privDocRed();">
+<img src="img/memberGrey.png" width="48px" title="Grey Access" align="right" onclick="privDocGrey();">
+<img src="img/memberGreen.png" width="48px" title="Green Access" align="right" onclick="privDocGreen();">
+<img src="img/memberBlue.png" width="48px" title="Blue Access" align="right" onclick="privDocBlue();">
 
 <br />
 <br />
@@ -42,7 +52,15 @@ Apollon Data Metrics (AGY)
 </center>
 
 <br />
-<br />
-<br />
 
+<center>
+<font face="pixel" id="memstatus" color="#959595" align="center" size="4">GREY</font>
+<font face="pixel" color="#959595" align="center" size="4">Access Enabled</font>
+</center>
+
+<!-- div class="outer">
+<img src="img/weaccept.png" width="25%" title="We Accept Paypal!" onclick="window.open('https://www.paypal.com','_blank');">
+</div -->
+
+</body>
 </html>

@@ -34,7 +34,7 @@ function gMail() {
 
 function getWords() {
 
-	wait(10000)
+	document.getElementById('words').innerHTML = 'Web App Marketplace';
 	var client = new XMLHttpRequest();
 	client.open('GET', 'https://raw.githubusercontent.com/alectramell/admsite/master/words.txt');
 	client.onreadystatechange = function() {
@@ -109,5 +109,81 @@ function checkBrowser() {
        document.getElementById('words').innerHTML = 'Web App Marketplace';
        words.color='#4c4c4c';
    }
+}
+
+function soundInfoON() {
+
+	document.getElementById('words').innerHTML = 'Turn Sound On';
+	words.color='#4c4c4c';
+}
+
+function soundInfoOFF() {
+
+	document.getElementById('words').innerHTML = 'Turn Sound Off';
+	words.color='#4c4c4c';
+}
+
+function accessPrivs() {
+
+	window.open('membership.html','Access Privilages','nonresizable,height=500,width=700');
+	return false;
+}
+
+function aboutPrivsRed() {
+
+	document.getElementById('aprivs').innerHTML = 'RED';
+	aprivs.color='#ff666a';	
+}
+
+function aboutPrivsGrey() {
+
+	document.getElementById('aprivs').innerHTML = 'GREY';
+	aprivs.color='#959595';	
+}
+
+function aboutPrivsGreen() {
+
+	document.getElementById('aprivs').innerHTML = 'GREEN';
+	aprivs.color='#82ff3d';	
+}
+
+function aboutPrivsBlue() {
+
+	document.getElementById('aprivs').innerHTML = 'BLUE';
+	aprivs.color='#4e8fff';	
+}
+
+function aboutPrivsWhite() {
+
+	document.getElementById('aprivs').innerHTML = 'SELECT';
+	aprivs.color='#ffffff';	
+}
+
+function privDocRed() {
+
+	alert('RED Access is not an accessable option.');
+	document.getElementById('memstatus').innerHTML = 'RED';
+	memstatus.color = '#ff666a';
+}
+
+function privDocGrey() {
+
+	alert('GREY Access is now Active');
+	document.getElementById('memstatus').innerHTML = 'GREY';
+	memstatus.color = '#959595';
+}
+
+function privDocGreen() {
+
+	GREENcode = prompt('Please Enter GREEN Access Code:');
+	document.getElementById('memstatus').innerHTML = 'GREEN';
+	memstatus.color = '#82ff3d';
+}
+
+function privDocBlue() {
+
+	BLUEcode = prompt('Please Enter BLUE Access Code:');
+	document.getElementById('memstatus').innerHTML = 'BLUE';
+	memstatus.color = '#4e8fff';
 }
 
