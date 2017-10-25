@@ -113,14 +113,14 @@ function checkBrowser() {
 
 function soundInfoON() {
 
-	document.getElementById('words').innerHTML = 'Turn Sound On';
-	words.color='#4c4c4c';
+	document.getElementById('words').innerHTML = 'Turn Sound On?';
+	words.color='#959595';
 }
 
 function soundInfoOFF() {
 
-	document.getElementById('words').innerHTML = 'Turn Sound Off';
-	words.color='#4c4c4c';
+	document.getElementById('words').innerHTML = 'Turn Sound Off?';
+	words.color='#959595';
 }
 
 function accessPrivs() {
