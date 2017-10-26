@@ -205,10 +205,10 @@ function privDocBlue() {
 
 function privDocStatus() {
 
-	var accessLVL = localStorage.getItem('grey');
-	if ( accessLVL = 'grey' ) {
-		document.getElementById('memstatus').innerHTML = 'GREY';
-		memstatus.color = '#959595';
+	var accessLVL = localStorage.getItem('blue');
+	if ( accessLVL = 'blue' ) {
+		document.getElementById('memstatus').innerHTML = 'blue';
+		memstatus.color = '#4e8fff';
 	} else {
 		console.log('clear');
 	}
