@@ -161,29 +161,56 @@ function aboutPrivsWhite() {
 
 function privDocRed() {
 
-	alert('RED Access is not an accessable option.');
-	document.getElementById('memstatus').innerHTML = 'RED';
-	memstatus.color = '#ff666a';
+	var accessLVL = localStorage.getItem('red');
+	if ( document.getElementById('acode').value = 'red' ) {
+		document.getElementById('memstatus').innerHTML = 'RED';
+		memstatus.color = '#ff666a';
+	} else {
+		console.log('clear');
+	}
 }
 
 function privDocGrey() {
 
-	alert('GREY Access is now Active');
-	document.getElementById('memstatus').innerHTML = 'GREY';
-	memstatus.color = '#959595';
+	var accessLVL = localStorage.getItem('grey');
+	if ( document.getElementById('acode').value = 'grey' ) {
+		document.getElementById('memstatus').innerHTML = 'GREY';
+		memstatus.color = '#959595';
+	} else {
+		console.log('clear');
+	}
 }
 
 function privDocGreen() {
 
-	GREENcode = prompt('Please Enter GREEN Access Code:');
-	document.getElementById('memstatus').innerHTML = 'GREEN';
-	memstatus.color = '#82ff3d';
+	var accessLVL = localStorage.getItem('green');
+	if ( document.getElementById('acode').value = 'green' ) {
+		document.getElementById('memstatus').innerHTML = 'GREEN';
+		memstatus.color = '#82ff3d';
+	} else {
+		console.log('clear');
+	}
 }
 
 function privDocBlue() {
 
-	BLUEcode = prompt('Please Enter BLUE Access Code:');
-	document.getElementById('memstatus').innerHTML = 'BLUE';
-	memstatus.color = '#4e8fff';
+	var accessLVL = localStorage.getItem('blue');
+	if ( document.getElementById('acode').value = 'blue' ) {
+		document.getElementById('memstatus').innerHTML = 'BLUE';
+		memstatus.color = '#4e8fff';
+	} else {
+		console.log('clear');
+	}
+}
+
+function privDocStatus() {
+
+	var accessLVL = localStorage.getItem('grey');
+	if ( accessLVL = 'grey' ) {
+		document.getElementById('memstatus').innerHTML = 'GREY';
+		memstatus.color = '#959595';
+	} else {
+		console.log('clear');
+	}
 }
 
