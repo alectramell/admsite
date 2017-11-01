@@ -58,19 +58,9 @@ function chromeApps() {
 	parent.location = 'chromeAPPS.html';
 }
 
-function firefoxAppsMute() {
+function shellApps() {
 
-	parent.location = 'firefoxAPPSmute.html';
-}
-
-function debianAppsMute() {
-
-	parent.location = 'debianAPPSmute.html';
-}
-
-function chromeAppsMute() {
-
-	parent.location = 'chromeAPPSmute.html';
+	parent.location = 'shellAPPS.html';
 }
 
 function FBpage() {
