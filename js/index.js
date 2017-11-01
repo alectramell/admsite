@@ -68,6 +68,11 @@ function FBpage() {
 	window.open('https://www.facebook.com/apollondma','_blank');
 }
 
+function FBshare() {
+
+	window.open('https://www.facebook.com/sharer.php?u=https://www.facebook.com/apollondma','_blank');
+}
+
 function checkBrowser() { 
     if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1 ) 
    {
