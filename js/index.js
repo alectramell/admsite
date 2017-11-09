@@ -53,6 +53,11 @@ function debianApps() {
 	parent.location = 'debianAPPS.html';
 }
 
+function html5Apps() {
+
+	parent.location = 'html5APPS.html';
+}
+
 function chromeApps() {
 
 	parent.location = 'chromeAPPS.html';
