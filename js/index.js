@@ -50,12 +50,14 @@ function firefoxApps() {
 
 function debianApps() {
 
-	parent.location = 'debianAPPS.html';
+	// parent.location = 'debianAPPS.html';
+	alert('Debian Linux Apps Are Temporarily Unavailable');
 }
 
 function html5Apps() {
 
-	parent.location = 'html5APPS.html';
+	// parent.location = 'html5APPS.html';
+	alert('HTML5 Web Apps Are Temporarily Unavailable');
 }
 
 function chromeApps() {
@@ -87,7 +89,7 @@ function devPortal() {
 
 	// window.open('https://docs.google.com/forms/d/e/1FAIpQLScWo19B2mqVTFRJzG-tMBugY1MRp4Ncswg1CzLe96vhMuRfDA/viewform','_blank');
 
-	alert('The Developer Portal is Temporarily Unaccessable..');
+	alert('The Developer Portal is Temporarily Unavailable..');
 }
 
 function checkBrowser() { 
