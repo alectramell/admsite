@@ -78,6 +78,11 @@ function FBshare() {
 	window.open('https://www.facebook.com/sharer.php?u=https://www.facebook.com/apollondma','_blank');
 }
 
+function devPortal() {
+
+	window.open('https://docs.google.com/forms/d/e/1FAIpQLScWo19B2mqVTFRJzG-tMBugY1MRp4Ncswg1CzLe96vhMuRfDA/viewform','_blank');
+}
+
 function checkBrowser() { 
     if((navigator.userAgent.indexOf("Opera") || navigator.userAgent.indexOf('OPR')) != -1 ) 
    {
