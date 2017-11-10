@@ -82,7 +82,7 @@ function athenaPage() {
 
 function FBshare() {
 
-	window.open('https://www.facebook.com/sharer.php?u=https://www.facebook.com/apollondma','_blank');
+	window.open('http://www.apollondatametrics.com','_blank');
 }
 
 function devPortal() {
