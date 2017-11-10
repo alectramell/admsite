@@ -73,6 +73,11 @@ function FBpage() {
 	window.open('https://www.facebook.com/apollondma','_blank');
 }
 
+function athenaPage() {
+
+	parent.location = 'athenaPage.html';
+}
+
 function FBshare() {
 
 	window.open('https://www.facebook.com/sharer.php?u=https://www.facebook.com/apollondma','_blank');
@@ -80,7 +85,9 @@ function FBshare() {
 
 function devPortal() {
 
-	window.open('https://docs.google.com/forms/d/e/1FAIpQLScWo19B2mqVTFRJzG-tMBugY1MRp4Ncswg1CzLe96vhMuRfDA/viewform','_blank');
+	// window.open('https://docs.google.com/forms/d/e/1FAIpQLScWo19B2mqVTFRJzG-tMBugY1MRp4Ncswg1CzLe96vhMuRfDA/viewform','_blank');
+
+	alert('The Developer Portal is Temporarily Unaccessable..');
 }
 
 function checkBrowser() { 
