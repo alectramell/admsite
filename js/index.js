@@ -56,8 +56,8 @@ function debianApps() {
 
 function html5Apps() {
 
-	// parent.location = 'html5APPS.html';
-	alert('HTML5 Web Apps Are Temporarily Unavailable');
+	parent.location = 'html5APPS.html';
+	// alert('HTML5 Web Apps Are Temporarily Unavailable');
 }
 
 function chromeApps() {
