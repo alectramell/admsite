@@ -56,8 +56,7 @@ function debianApps() {
 
 function html5Apps() {
 
-	parent.location = 'html5APPS.html';
-	// alert('HTML5 Web Apps Are Temporarily Unavailable');
+	parent.location = 'http://www.apollondatametrics.com/html5APPS.html';
 }
 
 function chromeApps() {
