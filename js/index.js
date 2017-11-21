@@ -51,7 +51,7 @@ function firefoxApps() {
 function debianApps() {
 
 	// parent.location = 'debianAPPS.html';
-	alert('Debian Linux Apps Are Temporarily Unavailable');
+	alert('The Debian Linux Library is Temporarily Unavailable');
 }
 
 function html5Apps() {
