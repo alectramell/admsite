@@ -84,6 +84,11 @@ function FBshare() {
 	window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.apollondatametrics.com','_blank');
 }
 
+function FBshareHTML() {
+
+	window.open('https://www.facebook.com/sharer/sharer.php?u=http://www.apollondatametrics.com/html5APPS.html&image=http://www.apollondatametrics.com/img/fbSHARE.png','_blank');
+}
+
 function devPortal() {
 
 	// window.open('https://docs.google.com/forms/d/e/1FAIpQLScWo19B2mqVTFRJzG-tMBugY1MRp4Ncswg1CzLe96vhMuRfDA/viewform','_blank');
