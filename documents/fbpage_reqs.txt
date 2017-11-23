@@ -1,0 +1,16 @@
+APOLLON DATA METRICS (AGY) | Custom Facebook Page Requirements
+
+Certain items are required for Facebook Pages. The agency needs to know this information in order to create an effective Facebook Page for your business and/or organization. These items, are as follows..
+
+[+] title
+[+] subtitle
+[+] description
+[+] icon
+[+] banner
+[+] website URL
+[+] state
+[+] city
+[+] phone number
+[+] email
+[+] services list
+[+] name (owner)

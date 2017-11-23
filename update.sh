@@ -9,6 +9,7 @@ git add js
 git add img
 git add fonts
 git add audio
+git add documents
 git add xshell
 git add xdebian
 git add xfirefox
