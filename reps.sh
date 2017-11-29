@@ -18,7 +18,7 @@ REPLST=($REPS)
 
 clear
 
-echo "..." | pv -qL 10
+echo "< < <" | pv -qL 10
 
 for i in $(seq 0 $REPSCOUNT)
 do
@@ -26,8 +26,8 @@ do
 	sleep 0.5
 done
 
-echo -n ".." | pv -qL 10
-echo "." | pg
+echo -n "> > " | pv -qL 10
+echo ">" | pg
 
 clear
 
