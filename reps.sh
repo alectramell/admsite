@@ -23,6 +23,7 @@ echo "..." | pv -qL 10
 for i in $(seq 0 $REPSCOUNT)
 do
 	echo "${REPLST[$i]}" | xxd -r -p
+	sleep 0.5
 done
 
 echo -n ".." | pv -qL 10
