@@ -18,8 +18,8 @@ REPLST=($REPS)
 
 clear
 
+echo "(SOF): "
 echo "..." | pv -qL 10
-echo "(SOF): " | pv -qL 10
 
 for i in $(seq 0 $REPSCOUNT)
 do
