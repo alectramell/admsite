@@ -18,14 +18,15 @@ REPLST=($REPS)
 
 clear
 
-echo "LOADING REPS LIST.." | pv -qL 10
+echo "..." | pv -qL 10
 
 for i in $(seq 0 $REPSCOUNT)
 do
 	echo "${REPLST[$i]}" | xxd -r -p
 done
 
-echo "..REPS LIST LOAD COMPLETE!" | pg
+echo -n ".." | pv -qL 10
+echo "." | pg
 
 clear
 
