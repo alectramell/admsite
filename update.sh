@@ -12,6 +12,7 @@ git add audio
 git add documents
 git add xshell
 git add xdebian
+git add portfolio
 git add xfirefox
 git add xchrome
 git add README.md
