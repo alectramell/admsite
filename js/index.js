@@ -54,6 +54,12 @@ function debianApps() {
 	alert('The Debian Linux Library is Temporarily Unavailable');
 }
 
+function webGames() {
+
+	// parent.location = 'webGames.html';
+	alert('The Games Library is Temporarily Unavailable');
+}
+
 function html5Apps() {
 
 	parent.location = 'http://www.apollondatametrics.com/html5APPS.html';
