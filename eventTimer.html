@@ -2,11 +2,33 @@
 <html>
 <head>
 <title>
-ATHENA EVENT COUNTDOWN
+ATHENA CODERS ARENA
 </title>
 <link rel="icon" type="image/png" href="http://www.apollondatametrics.com/img/favicon.png">
 </head>
 <body bgcolor="#121212">
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1221903501290829',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v2.11'
+    });
+</script>
+
+<style type="text/css">
+	a {
+    		outline: 0;
+	}
+	@font-face {
+  		font-family: regular;
+  		src: url(fonts/pixel.ttf);
+	}
+</style>
+
+<font face="pixel" size="6" color="#ffffff" onmouseover="this.color='#c700e1';" onmouseout="this.color='#ffffff';" onclick="history.back();"><<<</font>
 
 <style type="text/css">
 	a {
@@ -19,7 +41,7 @@ ATHENA EVENT COUNTDOWN
 </style>
 
 <script>
-var countDownDate = new Date("Jan 3, 2018 12:00:00").getTime();
+var countDownDate = new Date("Jan 3, 2018 16:00:00").getTime();
 
 var x = setInterval(function() {
 
@@ -36,6 +58,7 @@ var x = setInterval(function() {
 	if (distance < 0) {
 		clearInterval(x);
 		document.getElementById("demo").innerHTML = "EXPIRED";
+		alert('Contact the Agency for a List of Champions');
 	}
 }, 1000);
 </script>
@@ -46,12 +69,38 @@ var x = setInterval(function() {
 <br />
 <br />
 
+<style type="text/css">
+	a {
+    		outline: 0;
+	}
+	@font-face {
+  		font-family: regular;
+  		src: url(fonts/pixel.ttf);
+	}
+</style>
+
 <center>
-<font face="capture" color="#ffffff" size="5">..UPCOMING ARENA..</font>
+<font face="pixel" color="#ffffff" size="6">..NEXT ARENA..</font>
 </center>
+
+<style type="text/css">
+	a {
+    		outline: 0;
+	}
+	@font-face {
+  		font-family: capture;
+  		src: url(fonts/capture.ttf);
+	}
+</style>
 
 <center>
 <font face="capture" color="#c700e1" size="7" id="demo">. . .</font>
+</center>
+
+<br />
+
+<center>
+<img src="img/athenaSUBMITdark.png" onmouseover="this.src='img/athenaSUBMIT.png';" onmouseout="this.src='img/athenaSUBMITdark.png';" width="400" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSc7aeApedIDqe5Hy0a8QbHpPQYNMwEg9fG7VEm6xjLQ8JBN-A/viewform','_blank');">
 </center>
 
 </body>
