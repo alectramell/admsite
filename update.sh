@@ -15,6 +15,8 @@ git add xdebian
 git add portfolio
 git add xfirefox
 git add xchrome
+git add dist
+git add src
 git add README.md
 git commit -m "admsite"
 git push origin master
